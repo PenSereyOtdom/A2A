@@ -1,0 +1,11 @@
+<div class="c_service__card__container">
+    <div class="flex-container">
+        <div  class="center" v-for="card in cards" :key="card.id">
+            <div class="flex-item">
+                <img src="../../assets/component/service-detail-card/target.svg">
+                <h1>{{card['title']}}</h1>
+                <p>{{card['description']}}</p>
+            </div> 
+        </div>      
+    </div>
+</div>
